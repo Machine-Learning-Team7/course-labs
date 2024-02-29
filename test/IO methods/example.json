@@ -1,0 +1,521 @@
+{
+  "results": [
+    {
+      "fsq_id": "4b96d534f964a52096e734e3",
+      "categories": [
+        {
+          "id": 16000,
+          "name": "Landmarks and Outdoors",
+          "icon": {
+            "prefix": "https://ss3.4sqi.net/img/categories_v2/parks_outdoors/default_",
+            "suffix": ".png"
+          }
+        }
+      ],
+      "chains": [],
+      "distance": 140,
+      "geocodes": {
+        "main": {
+          "latitude": 42.319583,
+          "longitude": -83.042261
+        }
+      },
+      "link": "/v3/places/4b96d534f964a52096e734e3",
+      "location": {
+        "address": "Ouellette Ave",
+        "country": "CA",
+        "formatted_address": "Ouellette Ave, Windsor ON",
+        "locality": "Windsor",
+        "region": "ON"
+      },
+      "name": "Windsor Riverwalk",
+      "related_places": {},
+      "timezone": "America/Detroit"
+    },
+    {
+      "fsq_id": "58ef8f318f2c1a27684b29cb",
+      "categories": [
+        {
+          "id": 13002,
+          "name": "Bakery",
+          "icon": {
+            "prefix": "https://ss3.4sqi.net/img/categories_v2/food/bakery_",
+            "suffix": ".png"
+          }
+        },
+        {
+          "id": 13034,
+          "name": "Café",
+          "icon": {
+            "prefix": "https://ss3.4sqi.net/img/categories_v2/food/cafe_",
+            "suffix": ".png"
+          }
+        },
+        {
+          "id": 13068,
+          "name": "American Restaurant",
+          "icon": {
+            "prefix": "https://ss3.4sqi.net/img/categories_v2/food/default_",
+            "suffix": ".png"
+          }
+        }
+      ],
+      "chains": [],
+      "distance": 1649,
+      "geocodes": {
+        "main": {
+          "latitude": 42.332509,
+          "longitude": -83.047829
+        },
+        "roof": {
+          "latitude": 42.332509,
+          "longitude": -83.047829
+        }
+      },
+      "link": "/v3/places/58ef8f318f2c1a27684b29cb",
+      "location": {
+        "address": "1049 Woodward Ave",
+        "census_block": "261635207001013",
+        "country": "US",
+        "cross_street": "",
+        "dma": "Detroit",
+        "formatted_address": "1049 Woodward Ave, Detroit, MI 48226",
+        "locality": "Detroit",
+        "postcode": "48226",
+        "region": "MI"
+      },
+      "name": "Avalon Cafe and Bakery",
+      "related_places": {},
+      "timezone": "America/Detroit"
+    },
+    {
+      "fsq_id": "5653affd498eb4c9c34c4ac6",
+      "categories": [
+        {
+          "id": 13009,
+          "name": "Cocktail Bar",
+          "icon": {
+            "prefix": "https://ss3.4sqi.net/img/categories_v2/nightlife/cocktails_",
+            "suffix": ".png"
+          }
+        },
+        {
+          "id": 13314,
+          "name": "New American Restaurant",
+          "icon": {
+            "prefix": "https://ss3.4sqi.net/img/categories_v2/food/newamerican_",
+            "suffix": ".png"
+          }
+        }
+      ],
+      "chains": [],
+      "distance": 1776,
+      "geocodes": {
+        "drop_off": {
+          "latitude": 42.334363,
+          "longitude": -83.045864
+        },
+        "main": {
+          "latitude": 42.334481,
+          "longitude": -83.046019
+        },
+        "roof": {
+          "latitude": 42.334481,
+          "longitude": -83.046019
+        }
+      },
+      "link": "/v3/places/5653affd498eb4c9c34c4ac6",
+      "location": {
+        "address": "225 Gratiot Ave",
+        "census_block": "261635172001044",
+        "country": "US",
+        "cross_street": "Gratiot And Broadway",
+        "dma": "Detroit",
+        "formatted_address": "225 Gratiot Ave (Gratiot And Broadway), Detroit, MI 48226",
+        "locality": "Detroit",
+        "postcode": "48226",
+        "region": "MI"
+      },
+      "name": "Standby",
+      "related_places": {},
+      "timezone": "America/Detroit"
+    },
+    {
+      "fsq_id": "5c54fe0e911fc4002cc0557e",
+      "categories": [
+        {
+          "id": 13002,
+          "name": "Bakery",
+          "icon": {
+            "prefix": "https://ss3.4sqi.net/img/categories_v2/food/bakery_",
+            "suffix": ".png"
+          }
+        },
+        {
+          "id": 13035,
+          "name": "Coffee Shop",
+          "icon": {
+            "prefix": "https://ss3.4sqi.net/img/categories_v2/food/coffeeshop_",
+            "suffix": ".png"
+          }
+        },
+        {
+          "id": 13334,
+          "name": "Sandwich Spot",
+          "icon": {
+            "prefix": "https://ss3.4sqi.net/img/categories_v2/food/deli_",
+            "suffix": ".png"
+          }
+        }
+      ],
+      "chains": [],
+      "distance": 1783,
+      "geocodes": {
+        "main": {
+          "latitude": 42.333679,
+          "longitude": -83.049382
+        },
+        "roof": {
+          "latitude": 42.333679,
+          "longitude": -83.049382
+        }
+      },
+      "link": "/v3/places/5c54fe0e911fc4002cc0557e",
+      "location": {
+        "address": "45 Grand River Ave",
+        "census_block": "261635207001000",
+        "country": "US",
+        "cross_street": "",
+        "dma": "Detroit",
+        "formatted_address": "45 Grand River Ave, Detroit, MI 48226",
+        "locality": "Detroit",
+        "postcode": "48226",
+        "region": "MI"
+      },
+      "name": "Cannelle Matt Knio",
+      "related_places": {},
+      "timezone": "America/Detroit"
+    },
+    {
+      "fsq_id": "4b3155d7f964a520f90425e3",
+      "categories": [
+        {
+          "id": 17019,
+          "name": "Used Bookstore",
+          "icon": {
+            "prefix": "https://ss3.4sqi.net/img/categories_v2/shops/bookstore_",
+            "suffix": ".png"
+          }
+        }
+      ],
+      "chains": [],
+      "distance": 1659,
+      "geocodes": {
+        "main": {
+          "latitude": 42.32748,
+          "longitude": -83.056976
+        },
+        "roof": {
+          "latitude": 42.32748,
+          "longitude": -83.056976
+        }
+      },
+      "link": "/v3/places/4b3155d7f964a520f90425e3",
+      "location": {
+        "address": "901 W Lafayette Blvd",
+        "census_block": "261635208001070",
+        "country": "US",
+        "cross_street": "at 5th St",
+        "dma": "Detroit",
+        "formatted_address": "901 W Lafayette Blvd (at 5th St), Detroit, MI 48226",
+        "locality": "Detroit",
+        "postcode": "48226",
+        "region": "MI"
+      },
+      "name": "John K King Books",
+      "related_places": {},
+      "timezone": "America/Detroit"
+    },
+    {
+      "fsq_id": "4ba94bc9f964a520771c3ae3",
+      "categories": [
+        {
+          "id": 16038,
+          "name": "State or Provincial Park",
+          "icon": {
+            "prefix": "https://ss3.4sqi.net/img/categories_v2/parks_outdoors/default_",
+            "suffix": ".png"
+          }
+        }
+      ],
+      "chains": [],
+      "distance": 1733,
+      "geocodes": {
+        "main": {
+          "latitude": 42.333175,
+          "longitude": -83.025757
+        },
+        "roof": {
+          "latitude": 42.333175,
+          "longitude": -83.025757
+        }
+      },
+      "link": "/v3/places/4ba94bc9f964a520771c3ae3",
+      "location": {
+        "address": "1900 Atwater St",
+        "census_block": "261635165001010",
+        "country": "US",
+        "cross_street": "btwn Rivard & St Aubin",
+        "dma": "Detroit",
+        "formatted_address": "1900 Atwater St (btwn Rivard & St Aubin), Detroit, MI 48207",
+        "locality": "Detroit",
+        "postcode": "48207",
+        "region": "MI"
+      },
+      "name": "William G. Milliken State Park and Harbor",
+      "related_places": {
+        "children": [
+          {
+            "fsq_id": "5bbbe98be96d0c002c9a74d2",
+            "name": "Tricentennial Lighthouse"
+          },
+          {
+            "fsq_id": "4cbe6a30acd48cfaba333d3f",
+            "name": "William G. Milliken State Park and Harbor Lighthouse"
+          }
+        ]
+      },
+      "timezone": "America/Detroit"
+    },
+    {
+      "fsq_id": "53b98b96498ef894b65e877c",
+      "categories": [
+        {
+          "id": 13057,
+          "name": "Gastropub",
+          "icon": {
+            "prefix": "https://ss3.4sqi.net/img/categories_v2/food/gastropub_",
+            "suffix": ".png"
+          }
+        },
+        {
+          "id": 13314,
+          "name": "New American Restaurant",
+          "icon": {
+            "prefix": "https://ss3.4sqi.net/img/categories_v2/food/newamerican_",
+            "suffix": ".png"
+          }
+        },
+        {
+          "id": 13347,
+          "name": "Tapas Restaurant",
+          "icon": {
+            "prefix": "https://ss3.4sqi.net/img/categories_v2/food/tapas_",
+            "suffix": ".png"
+          }
+        }
+      ],
+      "chains": [],
+      "distance": 1919,
+      "geocodes": {
+        "main": {
+          "latitude": 42.335206,
+          "longitude": -83.049152
+        },
+        "roof": {
+          "latitude": 42.335206,
+          "longitude": -83.049152
+        }
+      },
+      "link": "/v3/places/53b98b96498ef894b65e877c",
+      "location": {
+        "address": "1500 Woodward Ave",
+        "address_extended": "Fl 2",
+        "census_block": "261635172001040",
+        "country": "US",
+        "cross_street": "at John R St",
+        "dma": "Detroit",
+        "formatted_address": "1500 Woodward Ave (at John R St), Detroit, MI 48226",
+        "locality": "Detroit",
+        "postcode": "48226",
+        "region": "MI"
+      },
+      "name": "Wright & Co.",
+      "related_places": {},
+      "timezone": "America/Detroit"
+    },
+    {
+      "fsq_id": "4a7b6811f964a520ecea1fe3",
+      "categories": [
+        {
+          "id": 13039,
+          "name": "Deli",
+          "icon": {
+            "prefix": "https://ss3.4sqi.net/img/categories_v2/food/deli_",
+            "suffix": ".png"
+          }
+        },
+        {
+          "id": 13068,
+          "name": "American Restaurant",
+          "icon": {
+            "prefix": "https://ss3.4sqi.net/img/categories_v2/food/default_",
+            "suffix": ".png"
+          }
+        },
+        {
+          "id": 13334,
+          "name": "Sandwich Spot",
+          "icon": {
+            "prefix": "https://ss3.4sqi.net/img/categories_v2/food/deli_",
+            "suffix": ".png"
+          }
+        }
+      ],
+      "chains": [],
+      "distance": 2095,
+      "geocodes": {
+        "main": {
+          "latitude": 42.329002,
+          "longitude": -83.062029
+        },
+        "roof": {
+          "latitude": 42.329002,
+          "longitude": -83.062029
+        }
+      },
+      "link": "/v3/places/4a7b6811f964a520ecea1fe3",
+      "location": {
+        "address": "1300 Porter St",
+        "census_block": "261635214002020",
+        "country": "US",
+        "cross_street": "Brooklyn St.",
+        "dma": "Detroit",
+        "formatted_address": "1300 Porter St (Brooklyn St.), Detroit, MI 48226",
+        "locality": "Detroit",
+        "postcode": "48226",
+        "region": "MI"
+      },
+      "name": "Mudgie's",
+      "related_places": {},
+      "timezone": "America/Detroit"
+    },
+    {
+      "fsq_id": "513906c38aca6b6931303b04",
+      "categories": [
+        {
+          "id": 13003,
+          "name": "Bar",
+          "icon": {
+            "prefix": "https://ss3.4sqi.net/img/categories_v2/nightlife/pub_",
+            "suffix": ".png"
+          }
+        },
+        {
+          "id": 13029,
+          "name": "Brewery",
+          "icon": {
+            "prefix": "https://ss3.4sqi.net/img/categories_v2/food/brewery_",
+            "suffix": ".png"
+          }
+        },
+        {
+          "id": 13068,
+          "name": "American Restaurant",
+          "icon": {
+            "prefix": "https://ss3.4sqi.net/img/categories_v2/food/default_",
+            "suffix": ".png"
+          }
+        }
+      ],
+      "chains": [],
+      "distance": 2164,
+      "geocodes": {
+        "main": {
+          "latitude": 42.328526,
+          "longitude": -83.063374
+        },
+        "roof": {
+          "latitude": 42.328526,
+          "longitude": -83.063374
+        }
+      },
+      "link": "/v3/places/513906c38aca6b6931303b04",
+      "location": {
+        "address": "1400 Porter St",
+        "census_block": "261635214002022",
+        "country": "US",
+        "cross_street": "At Eighth Ave",
+        "dma": "Detroit",
+        "formatted_address": "1400 Porter St (At Eighth Ave), Detroit, MI 48216",
+        "locality": "Detroit",
+        "postcode": "48216",
+        "region": "MI"
+      },
+      "name": "Batch Brewing Company",
+      "related_places": {
+        "children": [
+          {
+            "fsq_id": "6025d739723a8779a5772846",
+            "name": "Fauci Fieldhouse"
+          }
+        ]
+      },
+      "timezone": "America/Detroit"
+    },
+    {
+      "fsq_id": "59667bf75455b20e2af2c92e",
+      "categories": [
+        {
+          "id": 16032,
+          "name": "Park",
+          "icon": {
+            "prefix": "https://ss3.4sqi.net/img/categories_v2/parks_outdoors/park_",
+            "suffix": ".png"
+          }
+        }
+      ],
+      "chains": [],
+      "distance": 2114,
+      "geocodes": {
+        "main": {
+          "latitude": 42.334526,
+          "longitude": -83.055049
+        }
+      },
+      "link": "/v3/places/59667bf75455b20e2af2c92e",
+      "location": {
+        "address": "1901 Grand River Ave",
+        "census_block": "261635207004000",
+        "country": "US",
+        "cross_street": "First St.",
+        "dma": "Detroit",
+        "formatted_address": "1901 Grand River Ave (First St.), Detroit, MI 48226",
+        "locality": "Detroit",
+        "postcode": "48226",
+        "region": "MI"
+      },
+      "name": "Beacon Park",
+      "related_places": {
+        "children": [
+          {
+            "fsq_id": "5a9dae6ae55d8b482af54f13",
+            "name": "Lumen Detroit"
+          }
+        ]
+      },
+      "timezone": "America/Detroit"
+    }
+  ],
+  "context": {
+    "geo_bounds": {
+      "circle": {
+        "center": {
+          "latitude": 42.31898,
+          "longitude": -83.04049
+        },
+        "radius": 22000
+      }
+    }
+  }
+}
