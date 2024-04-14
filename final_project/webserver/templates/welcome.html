@@ -10,10 +10,15 @@
             <h1>Final Project</h1>
             <p>This website has been built to deploy 2 predictive models:</p>
             <ul>
-                <li><a href="{{url_for('regressor')}}">Regressor</a></li>
-                <li><a href="{{url_for('classifier')}}">Classifier</a></li>
+                <li><a href="{{url_for('regressor')}}">Regressor Model</a></li>
+                <li><a href="{{url_for('classifier')}}">Classifier Model</a></li>
             </ul>
-            <div>You can also take a look of data we used to train these models in our <a href="{{url_for('data')}}">dataset page</a></div>
+            <div>You can also take a look of data we used to train these models:
+                <ul>
+                    <li><a href="/data/regression">Regression Dataset</a></li>
+                    <li><a href="/data/classification">Classification Dataset</a></li>
+                </ul>
+            </div>
             <div>To know more about what we do in this course, click <a href="{{url_for('about')}}">HERE</a></div>
         </div>
     </div>

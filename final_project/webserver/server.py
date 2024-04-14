@@ -31,14 +31,22 @@ def regressor():
 def classifier():
         return render_template('classifier.html')
 
-@app.route("/data")
-def data():
-        con=sqlite3.connect('./final_project/database/obesity.db')
-        cur1=con.cursor();cur2=con.cursor()
-        sample=raw.sample(5)
-        # raw=cur1.execute("select * from rawData order by random() limit 5")
-        clean=cur2.execute("select * from cleanedData order by random() limit 5")
-        return render_template('data.html',raw=sample,clean=clean,varDesc=varDesc)
+@app.route("/data/<model>")
+def data(model):
+        if(model=='regression'):
+                con=sqlite3.connect('./final_project/database/obesity.db')
+                cur1=con.cursor();cur2=con.cursor()
+                sample=raw.sample(5)
+                # raw=cur1.execute("select * from rawData order by random() limit 5")
+                clean=cur2.execute("select * from cleanedData order by random() limit 5")
+                return render_template('data_reg.html',raw=sample,clean=clean,varDesc=varDesc)
+        if(model=='classification'):
+                con=sqlite3.connect('./final_project/database/obesity.db')
+                cur1=con.cursor();cur2=con.cursor()
+                sample=raw.sample(5)
+                # raw=cur1.execute("select * from rawData order by random() limit 5")
+                clean=cur2.execute("select * from cleanedData order by random() limit 5")
+                return render_template('data_class.html',raw=sample,clean=clean,varDesc=varDesc)
 
 if __name__=="__main__":
         app.run(debug=True)
