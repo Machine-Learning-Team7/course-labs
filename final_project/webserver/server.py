@@ -1,4 +1,4 @@
-from flask import Flask, render_template, request, url_for
+from flask import Flask, render_template, request, url_for, session
 import sqlite3
 from pathlib import Path
 import pandas as pd
@@ -12,7 +12,7 @@ raw=pd.concat([features,target],axis=1)
 varDesc=obesity.variables
 
 app=Flask(__name__)
-
+app.secret_key="group project 7"
 
 
 @app.route("/")
@@ -26,15 +26,20 @@ def about():
 @app.route("/regressor", methods=["GET", "POST"])
 def regressor():
         if request.method == "POST":
-                age=request.form["age"], height=request.form['height'], weight=request.form['weight'], fcvc=request.form['fcvc'], ncp=request.form['ncp'], ch20=request.form['ch20'], faf=request.form['faf'], tue=request.form['tue']
-                return redirect(url_for("reg_answers", newAge=age, newHeight=height, newWeight=weight, newFcvc=fcvc, newNcp=ncp, newCh20=ch20, newFaf=faf, newTue=tue))
+                reg_answers = age=request.form["age"], height=request.form['height'], weight=request.form['weight'], fcvc=request.form['fcvc'], ncp=request.form['ncp'], ch20=request.form['ch20'], faf=request.form['faf'], tue=request.form['tue']
+                session["reg_answers"] = reg_answers
+                return redirect(url_for("reg_answers"))
         else: 
                 return render_template('regressor.html')
 
 
-@app.route("/<newAge>, <newHeight>, <newWeight>, <newFcvc>, <newNcp>, <newCh20>, <newFaf>, <newTue>")
-def reg_answers(newAge, newHeight, newWeight, newFcvc, newNcp, newCh20, newFaf, newTue):
-        return render_template('reg_answers.html')
+@app.route("/reg_answers")
+def reg_answers():
+        if "reg_answers" in session:
+                reg_answers = session["reg_answers"]
+                return f"<h2>newAge, newHeight, newWeight, newFcvc, newNcp, newCh20, newFaf, newTue</h2>"
+        else:
+                return redirect(url_for("regressor"))
 
 @app.route("/classifier")
 def classifier():
