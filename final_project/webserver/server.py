@@ -23,9 +23,18 @@ def welcome():
 def about():
         return render_template('about.html')
 
-@app.route("/regressor")
+@app.route("/regressor", methods=["GET", "POST"])
 def regressor():
-        return render_template('regressor.html')
+        if request.method == "POST":
+                age=request.form["age"], height=request.form['height'], weight=request.form['weight'], fcvc=request.form['fcvc'], ncp=request.form['ncp'], ch20=request.form['ch20'], faf=request.form['faf'], tue=request.form['tue']
+                return redirect(url_for("reg_answers", newAge=age, newHeight=height, newWeight=weight, newFcvc=fcvc, newNcp=ncp, newCh20=ch20, newFaf=faf, newTue=tue))
+        else: 
+                return render_template('regressor.html')
+
+
+@app.route("/<newAge>, <newHeight>, <newWeight>, <newFcvc>, <newNcp>, <newCh20>, <newFaf>, <newTue>")
+def reg_answers(newAge, newHeight, newWeight, newFcvc, newNcp, newCh20, newFaf, newTue):
+        return render_template('reg_answers.html')
 
 @app.route("/classifier")
 def classifier():
