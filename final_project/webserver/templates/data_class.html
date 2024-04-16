@@ -9,9 +9,7 @@
         <div>
             <h1>Classification Dataset</h1>
             <div>
-                <p>The dataset we selected to work contains data about eating habits and physical condition in individuals from
-                Mexico, Peru and Colombia to estimate their Obesity Levels.</p>
-                <p>Because data was favorable to do so, we decided to use the same dataset for both models, Regressor and Classifier.</p>
+                <p>This dataset contains 14 variables, it's a subset from a bigger dataset containing data used to predict heart disease presence.</p>
                 <div style="display:flex;">
                     <table style="border:1px solid">
                         <thead>
@@ -37,37 +35,31 @@
                         </tbody>
                     </table>
                     <table style="border:1px solid"><thead><tr><th>Possible Answers</th></tr></thead>
-                        <tbody><tr><td>Female, Male</td> </tr>
-                         <tr><td>Numeric value</td></tr>
-                         <tr><td>Numeric value in meters</td> </tr>
-                         <tr><td>Numeric value in kilograms</td> </tr>
-                         <tr><td>Yes, No</td> </tr>
-                         <tr><td>Yes, No</td> </tr>
-                         <tr><td>Never, Sometimes, Always</td> </tr>
-                         <tr><td>Between 1-2, 3, >3</td> </tr>
-                         <tr><td>No, Sometimes, Frequently, Always</td> </tr>
-                         <tr><td>Yes, No</td> </tr>
-                         <tr><td>Less than 1L, 1-2L, >2L</td> </tr>
-                         <tr><td>Yes, No</td> </tr>
-                         <tr><td>Do not have, 1 or 2 days, 2 or 4 days, 4 or 5 days</td> </tr>
-                         <tr><td>0-2 hours, 3-5 hours, >5 hours</td> </tr>
-                         <tr><td>I do not drink, Sometimes, Frequently, Always</td> </tr>
-                         <tr><td>Automobile, Motorbike, Bike, Public Transportation, Walking</td> </tr>
-                         <tr><td>Insufficient Weight, Normal Weight, Overweight Level I, Overweight Level II, Obesity Type I, Obesity Type II, and Obesity Type III</td></tr>
+                        <tbody><tr><td>age: age in years</td> </tr>
+                         <tr><td>sex: 0=female; 1=male</td></tr>
+                         <tr><td>cp: 1=typical angina; 2=atypical angina; 3=non-anginal pain; 4=asymptomatic</td> </tr>
+                         <tr><td>trestbps: resting blood pressure (in nm Hg on admission to the Hospital)</td> </tr>
+                         <tr><td>chol: serum cholestoral in mg/d</td> </tr>
+                         <tr><td>fbs: (fasting blood sugar > 120 mg/dl)  (1 = true; 0 = false)</td> </tr>
+                         <tr><td>restecg: resting electrocardiographic results 0=normal; 1=ST-T wave abnormality; 2=probable or definite left ventricular hypertrophy by Estes criteria</td> </tr>
+                         <tr><td>thalach: maximum heart rate achieved</td> </tr>
+                         <tr><td>exang: exercise induced angina (1 = yes; 0 = no)</td> </tr>
+                         <tr><td>oldpeak: ST depression induced by exercise relative to rest</td> </tr>
+                         <tr><td>slope: the slope of the peak exercise ST segment 1: upsloping; 2:flat; 3:downsloping</td> </tr>
+                         <tr><td>ca: number of major vessels (0-3) colored by flourosopy</td> </tr>
+                         <tr><td>thal: 3 = normal; 6 = fixed defect; 7 = reversable defect</td> </tr>
+                         <tr><td>num: diagnosis of heart disease (angiographic disease status) 0:<50% diameter noarrowing; 1:>50% diameter narrowing</50></td> </tr>
                         </tbody>
                     </table>
                 </div>
 
                 <p>We found this dataset in the 
-                    <a href="https://archive.ics.uci.edu/dataset/544/estimation+of+obesity+levels+based+on+eating+habits+and+physical+condition" target="_blank">
+                    <a href="https://archive.ics.uci.edu/dataset/45/heart+disease" target="_blank">
                         UC Irvine Machine Learning Repository
                     </a></p>
-                    <p>You can also find all varDesc definition in the article of how this dataset was originated. Amazing to find that 
-                        77% of this data was synthetically generated. <a href="https://doi.org/10.1016/j.dib.2019.104344" target="_blank">https://doi.org/10.1016/j.dib.2019.104344</a>
+                    <p>Originally published <a href="https://doi.org/10.1016/0002-9149%2889%2990524-9" target="_blank">https://doi.org/10.1016/0002-9149%2889%2990524-9</a>
                     </p>
 
-                    Even when this dataset clean, we still had to convert some categorical features into numeric so we could use them with
-                    our models. Down here you have a sample of data before and after we proccessed it.
             </div>
             <div>
                 <h3>ORIGINAL DATA SAMPLE</h3>

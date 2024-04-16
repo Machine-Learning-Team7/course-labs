@@ -4,12 +4,21 @@ from pathlib import Path
 import pandas as pd
 from ucimlrepo import fetch_ucirepo
 import pandas as pd
-raw=pd.DataFrame
+craw=pd.DataFrame
+rraw=pd.DataFrame
+
 obesity = fetch_ucirepo(id=544)
-features=obesity.data.features
-target=obesity.data.targets
-raw=pd.concat([features,target],axis=1)
-varDesc=obesity.variables
+# rfeatures=obesity.data.features
+# rtarget=obesity.data.targets
+# rraw=pd.concat([rfeatures,rtarget],axis=1)
+rraw=obesity.data.original
+rvarDesc=obesity.variables
+
+heartDisease = fetch_ucirepo(id=45)
+cfeatures=heartDisease.data.features
+ctarget=heartDisease.data.targets
+craw=pd.concat([cfeatures,ctarget],axis=1)
+cvarDesc=heartDisease.variables
 
 app=Flask(__name__)
 
@@ -34,19 +43,19 @@ def classifier():
 @app.route("/data/<model>")
 def data(model):
         if(model=='regression'):
-                con=sqlite3.connect('./final_project/database/obesity.db')
+                con=sqlite3.connect('./final_project/database/models.db')
                 cur1=con.cursor();cur2=con.cursor()
-                sample=raw.sample(5)
+                sample=rraw.sample(5)
                 # raw=cur1.execute("select * from rawData order by random() limit 5")
-                clean=cur2.execute("select * from cleanedData order by random() limit 5")
-                return render_template('data_reg.html',raw=sample,clean=clean,varDesc=varDesc)
+                clean=cur2.execute("select * from reg_clean_data order by random() limit 5")
+                return render_template('data_reg.html',raw=sample,clean=clean,varDesc=rvarDesc)
         if(model=='classification'):
-                con=sqlite3.connect('./final_project/database/obesity.db')
+                con=sqlite3.connect('./final_project/database/models.db')
                 cur1=con.cursor();cur2=con.cursor()
-                sample=raw.sample(5)
+                sample=craw.sample(5)
                 # raw=cur1.execute("select * from rawData order by random() limit 5")
-                clean=cur2.execute("select * from cleanedData order by random() limit 5")
-                return render_template('data_class.html',raw=sample,clean=clean,varDesc=varDesc)
+                clean=cur2.execute("select * from class_clean_data order by random() limit 5")
+                return render_template('data_class.html',raw=sample,clean=clean,varDesc=cvarDesc)
 
 if __name__=="__main__":
         app.run(debug=True)
